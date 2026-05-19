@@ -1,0 +1,13 @@
+@import "tailwindcss";
+:root{--slate:#2a3441;--orange:#e85d24;--sand:#f0ebe3;--heading:var(--slate);--muted:#6b7280;--bg-card:#fff;--bg-trust:#ebe4d9;--bg-services:#f0ebe3;--bg-about:#fff;--bg-reviews:#e8e2d8;--bg-gallery:#f5f1eb;--border-subtle:rgba(42,52,65,.12)}
+body{margin:0;background:var(--sand);font-family:var(--font-body),sans-serif}
+.font-head{font-family:var(--font-head),sans-serif}
+.form-input{width:100%;border:1px solid #bbb;padding:.6rem}
+.form-btn{width:100%;background:var(--orange);color:#fff;padding:.75rem;font-weight:700}
+.cta-primary{display:inline-block;background:var(--orange);padding:.75rem 1.5rem;font-size:.875rem;font-weight:700;color:#fff;text-transform:uppercase}
+.cta-secondary{display:inline-block;border:2px solid var(--slate);padding:.75rem 1.5rem;font-size:.875rem;font-weight:700;color:var(--slate);text-transform:uppercase}
+.section-trust{background:var(--bg-trust);border-bottom:1px solid var(--border-subtle)}
+.section-services{background:var(--bg-services)}
+.section-about{background:var(--bg-about)}
+.section-reviews{background:var(--bg-reviews)}
+.section-gallery{background:var(--bg-gallery)}
